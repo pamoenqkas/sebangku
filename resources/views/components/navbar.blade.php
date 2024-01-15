@@ -18,7 +18,7 @@
             @endif
         </p>
     </div>
-    <div class="text-gray-600 text-xl p-3">
+    <div class="text-gray-600 text-xl p-3 scroll-smooth">
         <div class="p-2.5 mt-1 flex items-center rounded-md  ">
             <img class="w-10 h-10 rounded-full" src="{{ asset('profile.jpg') }}" alt="Logos" />
             <h1 class="text-[15px]  ml-3 text-xl text-gray-700 font-bold">{{ Auth::user()->name  }} </h1>

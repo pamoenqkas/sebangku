@@ -20,7 +20,7 @@
                 <swiper-slide>
                     <img class="w-full object-cover " src="{{ asset('landing-3.jpg') }}" alt="landing-3" />
                 </swiper-slide>
-            </swiper-container> 
+            </swiper-container>
             <!-- <a href="#productSection" class=" fixed right-0 mr-1">
                 <div class="bg-slate-800  rounded-full px-2 py-1 flex justify-center items-center">
                     <i class="fa-solid fa-chevron-down mr-6" style="color: #ffffff;"></i>

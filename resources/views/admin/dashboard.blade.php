@@ -5,7 +5,7 @@
 @section('content')
 
 @if(Auth::check() && Auth::user()->role == 'Admin')
-<div class="pb-4 w-full flex flex-col lg:flex-row justify-center items-center bg-gray-200">
+<div class="pb-4 w-full h-auto flex flex-col lg:flex-row justify-center items-center bg-gray-200">
     <div class="w-full md:w-2/12">
         <x-navbar />
         <div class="xl:w-10/12 h-auto flex flex-col justify-center items-center p-2 ">
